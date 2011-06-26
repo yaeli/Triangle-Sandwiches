@@ -123,6 +123,9 @@ h4 {
 .quotetop {
 	color: #d30b98;
 	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 2px;	
 	border: solid;
 	border-color: #53042b;
 	border-width: 1px;
@@ -235,6 +238,10 @@ img {
 	padding-top: 5px;
 }
 
+#BackCats {		
+	border-top: 1px solid #AAA7A4;
+
+}
 
 
 /***     Footer     ***/
