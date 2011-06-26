@@ -131,14 +131,13 @@ h4 {
 }
 
 
-#latest h2 {
+#latest h3 {
 	float: right
 	font-weight: bold;
 	font-size: 16px;
 	text-align: right;
 	margin: 0px 25px 25px 0px;
 }
-
 
 .lifelistbox {
 	border-top: 1px solid #AAA7A4;
@@ -179,33 +178,51 @@ h4 {
 
 
 .travel {
-	padding: 5px 5px 5px 5px;
-	background: url("http://www.trianglesandwiches.com/Images/llcategories/travelgoalsblank.png") no-repeat;
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/travelgoalsblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
 }
 
 .minimalism {
-	padding: 5px 5px 5px 5px;
-	background: url("http://www.trianglesandwiches.com/Images/llcategories/minimalismgoalsblank.png") no-repeat;
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/minimalismgoalsblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
 }
 
 .adrenaline {
-	padding: 5px 5px 5px 5px;
-	background: url("http://www.trianglesandwiches.com/Images/llcategories/adrenalinerushesblank.png") no-repeat;
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/adrenalinerushesblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
 }
 
 .professional {
-	padding: 5px 5px 5px 5px;
-	background: url("http://www.trianglesandwiches.com/Images/llcategories/professionalgoalsblank.png") no-repeat;
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/professionalgoalsblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
 }
 
 .events {
-	padding: 5px 5px 5px 5px;
-	background: url("http://www.trianglesandwiches.com/Images/llcategories/eventstoattendblank.png") no-repeat;
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/eventstoattendblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
 }
 
 .creative {
-	padding: 5px 5px 5px 5px;
-	background: url("http://www.trianglesandwiches.com/Images/llcategories/creativegoalsblank.png") no-repeat;
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/creativegoalsblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
 }
 
 /***     Footer     ***/
