@@ -130,6 +130,12 @@ h4 {
 	background: url("http://trianglesandwiches.com/Images/thinkdifferent.jpg") no-repeat;
 }
 
+#content h2 {
+	border-bottom: 1px solid #AAA7A4;
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 12px;
+}
 
 #latest h3 {
 	float: right
