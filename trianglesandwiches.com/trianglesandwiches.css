@@ -1,0 +1,204 @@
+/***     Global Setup     ***/
+body { 
+  background-color: #ffffff;
+  font: 12px/14px Verdana, Helvetica;
+  font-weight: normal;
+  line-height: 2.0;
+}
+
+h1 {
+	font-family: Verdana, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+h2 {
+	font-family: Verdana, Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 14px 0;
+	line-height: 18px;
+}
+
+h3 {
+	color: #62066a;
+	font-size: 8px;
+	font-family: Verdana, Helvetica;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 7px 0 0 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #62066a;
+	font-size: 10px;
+	font-family: Verdana, Helvetica;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 7px 0 0 0;
+	text-transform: uppercase;
+}
+	h4 em {
+		letter-spacing: 0px;
+		margin: 0 0 0 -2px;
+		text-transform: lowercase;
+	}
+
+	a:link {
+		color: #62066a;
+		text-decoration: none;
+		}
+	a:visited {
+		color: #7b2778;
+		text-decoration: none;
+		}		
+	a:hover {
+		color: #b790ba;
+		text-decoration: none;
+}
+
+/***     Container    
+#allcontent {
+	width: 770px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+***/
+
+
+
+/***     Header     ***/	
+#header {
+	position: absolute;
+	top:  25px;
+	left:  30px;
+	width: 160px;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 25px;
+
+}	
+	#header h1 a:link {
+		color: #62066a;
+		text-decoration: none;
+		}
+	#header h1 a:visited {
+		color: #7b2778;
+		text-decoration: none;
+		}		
+	#header h1 a:hover {
+		color: #b790ba;
+		text-decoration: none;
+}
+
+/***     Navigation     ***/
+#navigation {
+    border-bottom-color:#000000;
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    position: absolute;
+	top: 50px;
+	left: 200px;
+	margin: 0px 8px;
+	width: 770px;
+}
+
+#navigation ul {
+	list-style-type: none;
+}
+
+#navigation ul li {
+	float: left;
+	margin: 0 70px 0 0px;
+}
+
+.nav-main {
+	display: block;
+	font-weight: bold;
+	margin: 0px 0 8px -38px;	
+}
+
+/***     Content  ***/
+#content {
+	float: left;
+	margin: 0px 10px 0 200px;
+	width: 770px;
+}
+
+#content h2 {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.quotetop {
+	color: #d30b98;
+	text-align: center;
+	border: solid;
+	border-color: #53042b;
+	border-width: 1px;
+	padding: 25px;
+	margin: 100px 0px 30px 0px;	
+	background: url("http://trianglesandwiches.com/Images/thinkdifferent.jpg") no-repeat;
+}
+
+
+#latest h2 {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+
+.portfolioimages {
+	border-top: 1px solid #AAA7A4;
+	float: left;
+	margin: 0 0 14px 0;
+	width: 770px;
+}
+
+#featuredone {
+	width: 420px;
+	float: left;
+	padding: 5px;
+]
+
+#featuredtwo {
+	width: 420px;
+	float: right;
+	padding: 5px;
+]
+
+
+/***     Footer     ***/
+#footer {
+    border-top:3px solid #000000;
+    float: left;    
+    clear: left;
+	margin: 50px 0px 0 200px;
+    padding: 14px 0px 28px 0px;
+    width: 770px;
+}
+
+#footer-title {
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin: 0 0px 0 50px;
+}
+
+#footertext {
+	margin: 0px 0px 0px -20px;		
+}
+	
+#footer a:link {
+	color: #62066a;
+		}
+#footer a:visited {
+	color: #7b2778;
+		}		
+#footer a:hover {
+	color: #b790ba;
+}

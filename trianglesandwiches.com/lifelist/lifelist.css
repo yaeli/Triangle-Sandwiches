@@ -1,0 +1,229 @@
+/***     Global Setup     ***/
+body { 
+  background-color: #ffffff;
+  font: 12px/14px Verdana, Helvetica;
+  font-weight: normal;
+  line-height: 2.0;
+}
+
+h1 {
+	font-family: Verdana, Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+h2 {
+	font-family: Verdana, Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 14px 0;
+	line-height: 18px;
+}
+
+h3 {
+	color: #62066a;
+	font-size: 8px;
+	font-family: Verdana, Helvetica;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 7px 0 0 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #62066a;
+	font-size: 10px;
+	font-family: Verdana, Helvetica;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 7px 0 0 0;
+	text-transform: uppercase;
+}
+	h4 em {
+		letter-spacing: 0px;
+		margin: 0 0 0 -2px;
+		text-transform: lowercase;
+	}
+
+	a:link {
+		color: #62066a;
+		text-decoration: none;
+		}
+	a:visited {
+		color: #7b2778;
+		text-decoration: none;
+		}		
+	a:hover {
+		color: #b790ba;
+		text-decoration: none;
+}
+
+
+/***     Header     ***/	
+#header {
+	position: absolute;
+	top:  25px;
+	left:  30px;
+	width: 160px;
+	text-decoration: none;
+	text-align: left;
+	padding-top: 25px;
+
+}	
+	#header h1 a:link {
+		color: #62066a;
+		text-decoration: none;
+		}
+	#header h1 a:visited {
+		color: #7b2778;
+		text-decoration: none;
+		}		
+	#header h1 a:hover {
+		color: #b790ba;
+		text-decoration: none;
+}
+
+/***     Navigation     ***/
+#navigation {
+    border-bottom-color:#000000;
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    position: absolute;
+	top: 50px;
+	left: 200px;
+	margin: 0px 8px;
+	width: 770px;
+}
+
+#navigation ul {
+	list-style-type: none;
+}
+
+#navigation ul li {
+	float: left;
+	margin: 0 70px 0 0px;
+}
+
+.nav-main {
+	display: block;
+	font-weight: bold;
+	margin: 0px 0 8px -38px;	
+}
+
+/***     Content  ***/
+#content {
+	float: left;
+	margin: 0px 10px 0 200px;
+	width: 770px;
+}
+
+
+.quotetop {
+	color: #d30b98;
+	text-align: center;
+	border: solid;
+	border-color: #53042b;
+	border-width: 1px;
+	padding: 25px;
+	margin: 100px 0px 30px 0px;	
+	background: url("http://trianglesandwiches.com/Images/thinkdifferent.jpg") no-repeat;
+}
+
+
+#latest h2 {
+	float: right
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+	margin: 0px 25px 25px 0px;
+}
+
+
+.lifelistbox {
+	border-top: 1px solid #AAA7A4;
+	float: left;
+	margin: 0 0 14px 0;
+	padding: 21px 0 21px 0;
+	width: 770px;
+}
+
+#lifelist-list {
+	border-top: 1px solid #AAA7A4;
+	float: left;
+	margin: 0 0 14px 0;
+	padding: 21px 0 21px 0;	
+	width: 770px;
+}
+
+.lifelistbox img {
+	border: 5px solid #AAA7A4;
+}
+
+.life {
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/lifegoalsblank.png") no-repeat;
+	display: block;
+	width: 770px;
+	line-height: 50px;
+	min-height: 65px;
+}
+
+.fitness {
+	padding: 5px -15px 5px 5px;
+	background: url("http://trianglesandwiches.com/Images/llcategories/fitnessgoalsblank.png") no-repeat;
+	display: block;
+	line-height: 50px;
+	min-height: 65px;
+}
+
+
+.travel {
+	padding: 5px 5px 5px 5px;
+	background: url("http://www.trianglesandwiches.com/Images/llcategories/travelgoalsblank.png") no-repeat;
+}
+
+.minimalism {
+	padding: 5px 5px 5px 5px;
+	background: url("http://www.trianglesandwiches.com/Images/llcategories/minimalismgoalsblank.png") no-repeat;
+}
+
+.adrenaline {
+	padding: 5px 5px 5px 5px;
+	background: url("http://www.trianglesandwiches.com/Images/llcategories/adrenalinerushesblank.png") no-repeat;
+}
+
+.professional {
+	padding: 5px 5px 5px 5px;
+	background: url("http://www.trianglesandwiches.com/Images/llcategories/professionalgoalsblank.png") no-repeat;
+}
+
+.events {
+	padding: 5px 5px 5px 5px;
+	background: url("http://www.trianglesandwiches.com/Images/llcategories/eventstoattendblank.png") no-repeat;
+}
+
+.creative {
+	padding: 5px 5px 5px 5px;
+	background: url("http://www.trianglesandwiches.com/Images/llcategories/creativegoalsblank.png") no-repeat;
+}
+
+/***     Footer     ***/
+#footer {
+    border-top:3px solid #000000;
+    float: left;    
+    clear: left;
+	margin: 50px 0px 0 200px;
+    padding: 14px 0px 28px 0px;
+    width: 770px;
+}
+
+#footer-title {
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin: 0 0px 0 50px;
+}
+
+#footertext {
+	margin: 0px 0px 0px -20px;		
+}
