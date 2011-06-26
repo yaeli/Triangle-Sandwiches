@@ -248,12 +248,10 @@ img {
     width: 770px;
 }
 
-#footer-title {
-	font-size: 10px;
-	letter-spacing: 1px;
-	margin: 0 0px 0 50px;
+.tweet {
+	padding-left: 20px;
 }
-
-#footertext {
-	margin: 0px 0px 0px -20px;		
+	
+.email {
+	padding-left: 20px;
 }
