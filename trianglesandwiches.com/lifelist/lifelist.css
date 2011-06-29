@@ -237,6 +237,8 @@ img {
 	padding-top: 5px;
 }
 
+a.dsq-subscribe-email, a.dsq-subscribe-rss { display: none; }
+
 
 /***     Footer     ***/
 #footer {
