@@ -121,17 +121,15 @@ h4 {
 
 
 .quotetop {
-	color: #d30b98;
+	color: white;
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: bold;
 	letter-spacing: 2px;	
-	border: solid;
-	border-color: #53042b;
 	border-width: 1px;
 	padding: 25px;
 	margin: 100px 0px 30px 0px;	
-	background: url("http://trianglesandwiches.com/Images/thinkdifferent.jpg") no-repeat;
+	background: url("http://trianglesandwiches.com/Images/quotetopv2.png") no-repeat;
 }
 
 #content h2 {
