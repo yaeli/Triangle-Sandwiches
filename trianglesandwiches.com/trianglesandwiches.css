@@ -141,6 +141,7 @@ h4, .citation {
 	width: 770px;
 }
 
+#latest h1,
 #content h2 {
 	border-bottom: 1px solid #AAA7A4;
 	padding-bottom: 15px;
@@ -196,10 +197,18 @@ h4, .citation {
     border-top:3px solid #000000;
     float: left;    
     clear: left;
-	margin: 50px 0px 0 200px;
-    padding: 14px 0px 28px 0px;
+	margin: 50px 0 0 200px;
+    padding: 14px 0 28px 0;
     width: 770px;
 }
+
+#footer p,
+#footer ol,
+#footer li {
+	display: inline;
+}
+
+#footer ol { margin: 0; padding: 0 }
 
 .tweet {
 	padding-left: 20px;
