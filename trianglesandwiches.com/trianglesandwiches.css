@@ -21,17 +21,19 @@ h2 {
 	line-height: 18px;
 }
 
-h3 {
+h3,.tag-line {
 	color: #62066a;
 	font-size: 8px;
 	font-family: Verdana, Helvetica;
 	font-weight: normal;
 	letter-spacing: 2px;
-	margin: 7px 0 0 0;
+	margin: 11px 0 0 0;
 	text-transform: uppercase;
+	display: block;
 }
 
-h4 {
+h4, .citation {
+	display: block;
 	color: #62066a;
 	font-size: 10px;
 	font-family: Verdana, Helvetica;
@@ -40,7 +42,7 @@ h4 {
 	margin: 7px 0 0 0;
 	text-transform: uppercase;
 }
-	h4 em {
+	h4 em,.citation em {
 		letter-spacing: 0px;
 		margin: 0 0 0 -2px;
 		text-transform: lowercase;
@@ -82,18 +84,22 @@ h4 {
 	text-align: left;
 	padding-top: 25px;
 
-}	
+}
+
+	#header h1 a {
+		text-decoration: none;
+}
+	
 	#header h1 a:link {
 		color: #62066a;
 		text-decoration: none;
 		}
 	#header h1 a:visited {
 		color: #7b2778;
-		text-decoration: none;
+
 		}		
 	#header h1 a:hover {
 		color: #b790ba;
-		text-decoration: none;
 }
 
 /***     Navigation     ***/
