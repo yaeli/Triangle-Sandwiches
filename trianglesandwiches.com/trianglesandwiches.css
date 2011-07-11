@@ -24,7 +24,9 @@ h2 {
 	line-height: 18px;
 }
 
-h3,.tag-line {
+h3,
+.tag-line,
+#latest ol h2 {
 	color: #62066a;
 	font-size: 8px;
 	font-family: Verdana, Helvetica;
@@ -159,16 +161,21 @@ h4, .citation {
 }
 
 
-#latest ol {
-	list-style: none;
-	
-}
-
-#latest h2 {
+#latest h1 {
 	font-weight: bold;
 	font-size: 12px;
 }
 
+#latest ol {
+	list-style: none;
+	padding: 0;
+	
+}
+
+#latest ol h2{
+	border-bottom: 0 none;	
+	font-size: 12px
+}
 
 #featuredone {
 	float: left;
