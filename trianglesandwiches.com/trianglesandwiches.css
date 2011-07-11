@@ -159,6 +159,11 @@ h4, .citation {
 }
 
 
+#latest ol {
+	list-style: none;
+	
+}
+
 #latest h2 {
 	font-weight: bold;
 	font-size: 12px;
