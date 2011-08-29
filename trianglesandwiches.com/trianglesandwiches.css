@@ -1,3 +1,6 @@
+/* TODO: use a CSS reset? */
+
+
 /***     Global Setup     ***/
 body { 
   background-color: #ffffff;
@@ -21,17 +24,21 @@ h2 {
 	line-height: 18px;
 }
 
-h3 {
+h3,
+.tag-line,
+#latest ol h2 {
 	color: #62066a;
 	font-size: 8px;
 	font-family: Verdana, Helvetica;
 	font-weight: normal;
 	letter-spacing: 2px;
-	margin: 7px 0 0 0;
+	margin: 11px 0 0 0;
 	text-transform: uppercase;
+	display: block;
 }
 
-h4 {
+h4, .citation {
+	display: block;
 	color: #62066a;
 	font-size: 10px;
 	font-family: Verdana, Helvetica;
@@ -40,7 +47,7 @@ h4 {
 	margin: 7px 0 0 0;
 	text-transform: uppercase;
 }
-	h4 em {
+	h4 em,.citation em {
 		letter-spacing: 0px;
 		margin: 0 0 0 -2px;
 		text-transform: lowercase;
@@ -82,18 +89,22 @@ h4 {
 	text-align: left;
 	padding-top: 25px;
 
-}	
+}
+
+	#header h1 a {
+		text-decoration: none;
+}
+	
 	#header h1 a:link {
 		color: #62066a;
 		text-decoration: none;
 		}
 	#header h1 a:visited {
 		color: #7b2778;
-		text-decoration: none;
+
 		}		
 	#header h1 a:hover {
 		color: #b790ba;
-		text-decoration: none;
 }
 /***     FB post    
 #fb-root {
@@ -135,6 +146,7 @@ h4 {
 	width: 770px;
 }
 
+#latest h1,
 #content h2 {
 	border-bottom: 1px solid #AAA7A4;
 	padding-bottom: 15px;
@@ -155,11 +167,23 @@ h4 {
 }
 
 
-#latest h2 {
+#latest h1 {
 	font-weight: bold;
 	font-size: 12px;
 }
 
+#latest ol {
+	list-style: none;
+	padding: 0;
+	
+}
+
+#latest ol h2{
+	border-bottom: 0 none;	
+	font-size: 10px;
+	padding: 0;
+	margin: 8px 0 1px;
+}
 
 #featuredone {
 	float: left;
@@ -178,10 +202,18 @@ h4 {
     border-top:3px solid #000000;
     float: left;    
     clear: left;
-	margin: 50px 0px 0 200px;
-    padding: 14px 0px 28px 0px;
+	margin: 50px 0 0 200px;
+    padding: 14px 0 28px 0;
     width: 770px;
 }
+
+#footer p,
+#footer ol,
+#footer li {
+	display: inline;
+}
+
+#footer ol { margin: 0; padding: 0 }
 
 .tweet {
 	padding-left: 20px;
